@@ -41,7 +41,6 @@
   import EditorWithTabs from '@/components/editorWithTabs'
   import TitleBar from '@/components/titleBar'
   import SideBar from '@/components/sideBar'
-  import Aidou from '@/components/aidou/aidou'
   import AboutDialog from '@/components/about'
   import Rename from '@/components/rename'
   import Tweet from '@/components/tweet'
@@ -53,7 +52,6 @@
   export default {
     name: 'marktext',
     components: {
-      Aidou,
       Recent,
       EditorWithTabs,
       TitleBar,
