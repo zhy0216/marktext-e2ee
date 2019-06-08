@@ -1,12 +1,12 @@
 import { ipcRenderer } from 'electron'
 
 const width = localStorage.getItem('side-bar-width')
-const sideBarWidth = typeof +width === 'number' ? Math.max(+width, 180) : 280
+const sideBarWidth = typeof +width === 'number' ? Math.max(+width, 280) : 280
 
 // messages from main process, and do not change the state
 const state = {
   rightColumn: 'files',
-  showSideBar: false,
+  showSideBar: true,
   showTabBar: false,
   sideBarWidth
 }

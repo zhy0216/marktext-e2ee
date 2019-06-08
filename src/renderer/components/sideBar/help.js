@@ -12,8 +12,8 @@ export const sideBarIcons = [
 ]
 
 export const sideBarBottomIcons = [
-  {
-    name: 'twitter',
-    icon: 'icon-twitter'
-  }
+  // {
+  //   name: 'twitter',
+  //   icon: 'icon-twitter'
+  // }
 ]
